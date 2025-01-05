@@ -76,13 +76,3 @@ variable "disk_size" {
     description = "Disk data size of the ecs instances"
     type = number
 }
-
-variable "tags" {
-    description = "Tags resources of the ecs instances"
-    type = string
-}
-
-variable "availability_zone" {
-    description = "Availability zone of the ecs instances"
-    type = string
-}
