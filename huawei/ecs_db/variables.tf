@@ -53,7 +53,7 @@ variable "system_disk_type" {
 
 variable "system_disk_size" {
     description = "System disk size of the ecs instances"
-    type = integer
+    type = number
     default = 10
 }
 
@@ -74,7 +74,7 @@ variable "disk_type" {
 
 variable "disk_size" {
     description = "Disk data size of the ecs instances"
-    type = integer
+    type = number
 }
 
 variable "tags" {
