@@ -70,7 +70,7 @@ variable "disk_description" {
 variable "disk_type" {
     description = "Disk data type of the ecs instances"
     type = string
-    default = "SAS
+    default = "SAS"
 }
 
 variable "disk_size" {
